@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ExameActivity">
 
     <ImageView
@@ -26,6 +27,9 @@
         android:ems="10"
         android:hint="70.0"
         android:inputType="number|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/AzulRDA"
+        android:textColorHint="@color/AzulRDA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +45,9 @@
         android:ems="10"
         android:hint="1.80"
         android:inputType="number|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/AzulRDA"
+        android:textColorHint="@color/AzulRDA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,8 +128,9 @@
         android:id="@+id/txdNomePaciente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="NomePaciente"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
